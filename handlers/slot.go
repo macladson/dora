@@ -556,7 +556,7 @@ func getSlotPageBlockData(blockData *services.CombinedBlockResponse, assignments
 		}
 	}
 
-	if epoch >= utils.Config.Chain.Config.CappellaForkEpoch {
+	if epoch >= utils.Config.Chain.Config.CapellaForkEpoch {
 		pageData.BLSChangesCount = uint64(len(blsToExecChanges))
 		pageData.BLSChanges = make([]*models.SlotPageBLSChange, pageData.BLSChangesCount)
 		for i, blschange := range blsToExecChanges {

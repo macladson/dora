@@ -21,8 +21,8 @@ type ChainConfig struct {
 	AltairForkEpoch                  uint64 `yaml:"ALTAIR_FORK_EPOCH"`
 	BellatrixForkVersion             string `yaml:"BELLATRIX_FORK_VERSION"`
 	BellatrixForkEpoch               uint64 `yaml:"BELLATRIX_FORK_EPOCH"`
-	CappellaForkVersion              string `yaml:"CAPELLA_FORK_VERSION"`
-	CappellaForkEpoch                uint64 `yaml:"CAPELLA_FORK_EPOCH"`
+	CapellaForkVersion              string `yaml:"CAPELLA_FORK_VERSION"`
+	CapellaForkEpoch                uint64 `yaml:"CAPELLA_FORK_EPOCH"`
 	DenebForkVersion                 string `yaml:"DENEB_FORK_VERSION"`
 	DenebForkEpoch                   uint64 `yaml:"DENEB_FORK_EPOCH"`
 	ShardingForkVersion              string `yaml:"SHARDING_FORK_VERSION"`
